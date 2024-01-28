@@ -1,2 +1,7 @@
 # Myntra-Clone
-<h1> Made by me</h1>
+<p>Tech Stack Used:</p>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JAVASCRIPT</li>
+</ul>
