@@ -15,3 +15,18 @@ function closeMenu(){
     close.style.display = 'none';  
     navbarContainer.style.display = 'none';
 }
+
+const heroArray = ["images/hero1.webp", "images/hero2.webp", "images/hero3.webp", "images/hero4.webp", "images/hero5.webp", "images/hero6.webp"];
+const heroArrayLen = heroArray.length;
+let heroImg = document.querySelector(".hero_img");
+let i=0;
+function heroSlider() {
+    if(i > heroArrayLen-1){
+        i=0;
+    }
+    heroImg.src = heroArray[i];
+    i++;
+    setTimeout(heroSlider, 6000);
+}
+
+heroSlider();
